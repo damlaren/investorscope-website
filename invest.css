@@ -1,5 +1,55 @@
-body {
+h1, h2, h3 {
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    line-height: 20px;
+}
+
+h3 {
+    display: inline;
+}
+
+.logo-adjusted {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-block {
+    color: white;
+    padding-top: 0.3em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+}
+
+.city {
+    background: url(images/city.jpg) 40% center no-repeat;
+}
+
+.transparent-box {
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+    padding: 1em;
+    margin-top: 40px;
+}
+
+.container-box {
+    padding: 1em;
+}
+
+.shadow {
+    -webkit-box-shadow: inset 0px 20px 30px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 20px 30px -8px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 20px 30px -8px rgba(0,0,0,0.75);
+}
+
+.black-text {
+    color: black;
+}
+
+.alazarin {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.vert-spaced {
+    margin-top: 20px;
 }
