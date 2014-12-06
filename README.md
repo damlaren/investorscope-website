@@ -10,6 +10,8 @@ https://ancient-peak-1097.herokuapp.com/
 
 It is worth noting that the application is optimized for the iPhone on Chrome specifically, but it should work well on any modern mobile phone with an up-to-date browser.
 
+The application source code is available at: https://github.com/damlaren/investorscope-app
+
 Logging In
 ----------
 
